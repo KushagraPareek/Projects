@@ -1,0 +1,1272 @@
+;; QUESTION SECTION
+google.com. IN A
+;; ANSWER SECTION
+google.com. 300 IN A 172.217.10.110
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 419 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+youtube.com. IN A
+;; ANSWER SECTION
+youtube.com. 300 IN A 172.217.12.174
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 183 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+tmail.com. IN A
+;; ANSWER SECTION
+;;AUTHORITY SECTION
+tmail.com. 60 IN SOA geo3.t-mobile.com. hostmaster.geo3.t-mobile.com. 2010090806 10800 3600 604800 60
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 523 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+baidu.com. IN A
+;; ANSWER SECTION
+baidu.com. 600 IN A 220.181.38.148
+baidu.com. 600 IN A 39.156.69.79
+;;AUTHORITY SECTION
+baidu.com. 86400 IN NS ns2.baidu.com.
+baidu.com. 86400 IN NS ns4.baidu.com.
+baidu.com. 86400 IN NS ns3.baidu.com.
+baidu.com. 86400 IN NS dns.baidu.com.
+baidu.com. 86400 IN NS ns7.baidu.com.
+;;ADDITIONAL SECTION
+dns.baidu.com. 86400 IN A 202.108.22.220
+ns2.baidu.com. 86400 IN A 220.181.33.31
+ns3.baidu.com. 86400 IN A 112.80.248.64
+ns4.baidu.com. 86400 IN A 14.215.178.80
+ns7.baidu.com. 86400 IN A 180.76.76.92
+MSG RECVD : 56 bytes
+Time to fetch records: 629 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+facebook.com. IN A
+;; ANSWER SECTION
+facebook.com. 300 IN A 31.13.71.36
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 480 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+wikipedia.org. IN A
+;; ANSWER SECTION
+wikipedia.org. 600 IN A 208.80.154.224
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 179 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+yahoo.com. IN A
+;; ANSWER SECTION
+yahoo.com. 1800 IN A 98.138.219.231
+yahoo.com. 1800 IN A 72.30.35.9
+yahoo.com. 1800 IN A 72.30.35.10
+yahoo.com. 1800 IN A 98.137.246.7
+yahoo.com. 1800 IN A 98.138.219.232
+yahoo.com. 1800 IN A 98.137.246.8
+;;AUTHORITY SECTION
+yahoo.com. 172800 IN NS ns4.yahoo.com.
+yahoo.com. 172800 IN NS ns3.yahoo.com.
+yahoo.com. 172800 IN NS ns2.yahoo.com.
+yahoo.com. 172800 IN NS ns1.yahoo.com.
+yahoo.com. 172800 IN NS ns5.yahoo.com.
+;;ADDITIONAL SECTION
+ns1.yahoo.com. 1209600 IN A 68.180.131.16
+ns2.yahoo.com. 1209600 IN A 68.142.255.16
+ns3.yahoo.com. 1800 IN A 27.123.42.42
+ns4.yahoo.com. 1209600 IN A 98.138.11.157
+ns5.yahoo.com. 1209600 IN A 119.160.253.83
+ns1.yahoo.com. 86400 IN AAAA 2001:4998:130::1001
+ns2.yahoo.com. 86400 IN AAAA 2001:4998:140::1002
+ns3.yahoo.com. 1800 IN AAAA 2406:8600:f03f:1f8::1003
+MSG RECVD : 56 bytes
+Time to fetch records: 358 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+jd.com. IN A
+;; ANSWER SECTION
+jd.com. 120 IN A 118.193.98.63
+jd.com. 120 IN A 111.13.149.108
+jd.com. 120 IN A 120.52.148.118
+;;AUTHORITY SECTION
+jd.com. 120 IN NS ns3.jd.com.
+jd.com. 120 IN NS ns2.jdcache.com.
+jd.com. 120 IN NS ns2.jd.com.
+jd.com. 120 IN NS ns4.jdcache.com.
+jd.com. 120 IN NS ns1.jdcache.com.
+jd.com. 120 IN NS ns1.jd.com.
+jd.com. 120 IN NS ns4.jd.com.
+jd.com. 120 IN NS ns3.jdcache.com.
+;;ADDITIONAL SECTION
+ns1.jd.com. 120 IN A 111.13.28.10
+ns1.jdcache.com. 720 IN A 111.13.28.10
+ns2.jd.com. 120 IN A 111.206.226.10
+ns2.jdcache.com. 720 IN A 111.206.226.10
+ns3.jd.com. 120 IN A 120.52.149.254
+ns3.jdcache.com. 720 IN A 120.52.149.254
+ns4.jd.com. 120 IN A 106.39.177.32
+ns4.jdcache.com. 720 IN A 106.39.177.32
+MSG RECVD : 56 bytes
+Time to fetch records: 801 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+amazon.com. IN A
+;; ANSWER SECTION
+amazon.com. 60 IN A 176.32.98.166
+amazon.com. 60 IN A 205.251.242.103
+amazon.com. 60 IN A 176.32.103.205
+;;AUTHORITY SECTION
+amazon.com. 3600 IN NS pdns1.ultradns.net.
+amazon.com. 3600 IN NS ns4.p31.dynect.net.
+amazon.com. 3600 IN NS ns3.p31.dynect.net.
+amazon.com. 3600 IN NS ns2.p31.dynect.net.
+amazon.com. 3600 IN NS ns1.p31.dynect.net.
+amazon.com. 3600 IN NS pdns6.ultradns.co.uk.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 493 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+sina.com.cn. IN A
+;; ANSWER SECTION
+sina.com.cn. 60 IN A 123.126.55.41
+sina.com.cn. 60 IN A 123.126.157.222
+;;AUTHORITY SECTION
+sina.com.cn. 86400 IN NS ns2.sina.com.cn.
+sina.com.cn. 86400 IN NS ns4.sina.com.cn.
+sina.com.cn. 86400 IN NS ns1.sina.com.cn.
+sina.com.cn. 86400 IN NS ns3.sina.com.cn.
+;;ADDITIONAL SECTION
+ns1.sina.com.cn. 86400 IN A 36.51.252.8
+ns2.sina.com.cn. 86400 IN A 180.149.138.199
+ns3.sina.com.cn. 86400 IN A 123.125.29.99
+ns4.sina.com.cn. 86400 IN A 121.14.1.22
+MSG RECVD : 56 bytes
+Time to fetch records: 671 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+reddit.com. IN A
+;; ANSWER SECTION
+reddit.com. 300 IN A 151.101.1.140
+reddit.com. 300 IN A 151.101.65.140
+reddit.com. 300 IN A 151.101.129.140
+reddit.com. 300 IN A 151.101.193.140
+;;AUTHORITY SECTION
+reddit.com. 172800 IN NS ns-1029.awsdns-00.org.
+reddit.com. 172800 IN NS ns-1887.awsdns-43.co.uk.
+reddit.com. 172800 IN NS ns-378.awsdns-47.com.
+reddit.com. 172800 IN NS ns-557.awsdns-05.net.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 174 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+netflix.com. IN A
+;; ANSWER SECTION
+netflix.com. 60 IN A 54.80.77.89
+netflix.com. 60 IN A 54.173.169.115
+netflix.com. 60 IN A 52.204.167.205
+netflix.com. 60 IN A 54.164.254.216
+netflix.com. 60 IN A 52.54.154.226
+netflix.com. 60 IN A 54.208.168.102
+netflix.com. 60 IN A 54.208.233.73
+netflix.com. 60 IN A 34.232.235.235
+;;AUTHORITY SECTION
+netflix.com. 14400 IN NS ns-1372.awsdns-43.org.
+netflix.com. 14400 IN NS ns-1984.awsdns-56.co.uk.
+netflix.com. 14400 IN NS ns-659.awsdns-18.net.
+netflix.com. 14400 IN NS ns-81.awsdns-10.com.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 144 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+okezone.com. IN A
+;; ANSWER SECTION
+okezone.com. 3600 IN A 202.80.220.218
+okezone.com. 3600 IN A 202.80.220.208
+;;AUTHORITY SECTION
+okezone.com. 3600 IN NS ns5.okezone.com.
+okezone.com. 3600 IN NS ns1.okezone.com.
+okezone.com. 3600 IN NS ns2.okezone.com.
+okezone.com. 3600 IN NS ns3.okezone.com.
+okezone.com. 3600 IN NS ns4.okezone.com.
+;;ADDITIONAL SECTION
+ns1.okezone.com. 3600 IN A 202.80.220.232
+ns2.okezone.com. 3600 IN A 202.80.220.88
+ns3.okezone.com. 3600 IN A 202.80.220.58
+ns4.okezone.com. 3600 IN A 202.80.220.78
+ns5.okezone.com. 3600 IN A 202.147.199.228
+MSG RECVD : 56 bytes
+Time to fetch records: 4452 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+yahoo.co.jp. IN A
+;; ANSWER SECTION
+yahoo.co.jp. 300 IN A 183.79.135.206
+yahoo.co.jp. 300 IN A 182.22.59.229
+;;AUTHORITY SECTION
+yahoo.co.jp. 900 IN NS ns02.yahoo.co.jp.
+yahoo.co.jp. 900 IN NS ns11.yahoo.co.jp.
+yahoo.co.jp. 900 IN NS ns12.yahoo.co.jp.
+yahoo.co.jp. 900 IN NS ns01.yahoo.co.jp.
+;;ADDITIONAL SECTION
+ns01.yahoo.co.jp. 900 IN A 118.151.254.133
+ns02.yahoo.co.jp. 900 IN A 118.151.254.149
+ns11.yahoo.co.jp. 900 IN A 124.83.255.37
+ns12.yahoo.co.jp. 900 IN A 124.83.255.101
+MSG RECVD : 56 bytes
+Time to fetch records: 725 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+instagram.com. IN A
+;; ANSWER SECTION
+instagram.com. 60 IN A 3.213.81.118
+instagram.com. 60 IN A 34.199.179.214
+instagram.com. 60 IN A 3.213.207.185
+instagram.com. 60 IN A 34.192.208.233
+instagram.com. 60 IN A 3.213.111.250
+instagram.com. 60 IN A 3.93.233.206
+instagram.com. 60 IN A 34.198.158.29
+instagram.com. 60 IN A 3.213.185.181
+;;AUTHORITY SECTION
+instagram.com. 172800 IN NS ns-1349.awsdns-40.org.
+instagram.com. 172800 IN NS ns-2016.awsdns-60.co.uk.
+instagram.com. 172800 IN NS ns-384.awsdns-48.com.
+instagram.com. 172800 IN NS ns-868.awsdns-44.net.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 137 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+bing.com. IN A
+;; ANSWER SECTION
+bing.com. 3600 IN A 13.107.21.200
+bing.com. 3600 IN A 204.79.197.200
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 191 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+google.com.hk. IN A
+;; ANSWER SECTION
+google.com.hk. 300 IN A 172.217.3.99
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 506 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+microsoft.com. IN A
+;; ANSWER SECTION
+microsoft.com. 3600 IN A 40.113.200.201
+microsoft.com. 3600 IN A 104.215.148.63
+microsoft.com. 3600 IN A 13.77.161.179
+microsoft.com. 3600 IN A 40.76.4.15
+microsoft.com. 3600 IN A 40.112.72.205
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 562 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+twitter.com. IN A
+;; ANSWER SECTION
+twitter.com. 1800 IN A 104.244.42.1
+twitter.com. 1800 IN A 104.244.42.193
+;;AUTHORITY SECTION
+twitter.com. 13999 IN NS b.r06.twtrdns.net.
+twitter.com. 13999 IN NS ns2.p34.dynect.net.
+twitter.com. 13999 IN NS a.r06.twtrdns.net.
+twitter.com. 13999 IN NS ns4.p34.dynect.net.
+twitter.com. 13999 IN NS ns1.p34.dynect.net.
+twitter.com. 13999 IN NS d.r06.twtrdns.net.
+twitter.com. 13999 IN NS c.r06.twtrdns.net.
+twitter.com. 13999 IN NS ns3.p34.dynect.net.
+twitter.com. 13999 IN NS d01-02.ns.twtrdns.net.
+twitter.com. 13999 IN NS d01-01.ns.twtrdns.net.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 3886 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+ebay.com. IN A
+;; ANSWER SECTION
+ebay.com. 3600 IN A 66.135.196.249
+ebay.com. 3600 IN A 66.135.195.175
+;;AUTHORITY SECTION
+ebay.com. 172800 IN NS ns3.p47.dynect.net.
+ebay.com. 172800 IN NS ns2.p47.dynect.net.
+ebay.com. 172800 IN NS ns1.p47.dynect.net.
+ebay.com. 172800 IN NS dns4.p06.nsone.net.
+ebay.com. 172800 IN NS dns3.p06.nsone.net.
+ebay.com. 172800 IN NS dns1.p06.nsone.net.
+ebay.com. 172800 IN NS dns2.p06.nsone.net.
+ebay.com. 172800 IN NS ns4.p47.dynect.net.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 552 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+stackoverflow.com. IN A
+;; ANSWER SECTION
+stackoverflow.com. 300 IN A 151.101.129.69
+stackoverflow.com. 300 IN A 151.101.1.69
+stackoverflow.com. 300 IN A 151.101.65.69
+stackoverflow.com. 300 IN A 151.101.193.69
+;;AUTHORITY SECTION
+stackoverflow.com. 172800 IN NS ns-1033.awsdns-01.org.
+stackoverflow.com. 172800 IN NS ns-358.awsdns-44.com.
+stackoverflow.com. 172800 IN NS ns-cloud-e1.googledomains.com.
+stackoverflow.com. 172800 IN NS ns-cloud-e2.googledomains.com.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 154 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+twitch.tv. IN A
+;; ANSWER SECTION
+twitch.tv. 300 IN A 151.101.130.167
+twitch.tv. 300 IN A 151.101.194.167
+twitch.tv. 300 IN A 151.101.2.167
+twitch.tv. 300 IN A 151.101.66.167
+;;AUTHORITY SECTION
+twitch.tv. 900 IN NS a1.verisigndns.com.
+twitch.tv. 900 IN NS a2.verisigndns.com.
+twitch.tv. 900 IN NS a3.verisigndns.com.
+twitch.tv. 900 IN NS ns1.p18.dynect.net.
+twitch.tv. 900 IN NS ns2.p18.dynect.net.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 533 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+amazon.co.jp. IN A
+;; ANSWER SECTION
+amazon.co.jp. 60 IN A 52.119.164.121
+amazon.co.jp. 60 IN A 52.119.161.5
+amazon.co.jp. 60 IN A 52.119.168.48
+;;AUTHORITY SECTION
+amazon.co.jp. 86400 IN NS pdns6.ultradns.co.uk.
+amazon.co.jp. 86400 IN NS pdns1.ultradns.net.
+amazon.co.jp. 86400 IN NS ns4.p31.dynect.net.
+amazon.co.jp. 86400 IN NS ns3.p31.dynect.net.
+amazon.co.jp. 86400 IN NS pdns5.ultradns.info.
+amazon.co.jp. 86400 IN NS pdns4.ultradns.org.
+amazon.co.jp. 86400 IN NS pdns3.ultradns.org.
+amazon.co.jp. 86400 IN NS pdns2.ultradns.net.
+amazon.co.jp. 86400 IN NS ns2.p31.dynect.net.
+amazon.co.jp. 86400 IN NS ns1.p31.dynect.net.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 903 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+tribunnews.com. IN A
+;; ANSWER SECTION
+tribunnews.com. 300 IN A 113.11.255.45
+;;AUTHORITY SECTION
+tribunnews.com. 172800 IN NS dns1.masterweb.net.
+tribunnews.com. 172800 IN NS dns2.masterweb.net.
+tribunnews.com. 172800 IN NS dns3.masterweb.net.
+tribunnews.com. 172800 IN NS dns4.masterweb.net.
+;;ADDITIONAL SECTION
+dns1.masterweb.net. 300 IN A 202.157.177.169
+dns2.masterweb.net. 300 IN A 45.64.1.209
+dns3.masterweb.net. 300 IN A 149.28.149.165
+dns4.masterweb.net. 300 IN A 45.79.30.92
+MSG RECVD : 56 bytes
+Time to fetch records: 924 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+google.co.in. IN A
+;; ANSWER SECTION
+google.co.in. 300 IN A 172.217.10.35
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 600 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+;; QUESTION SECTION
+google.com. IN MX
+;; ANSWER SECTION
+google.com. 600 IN MX 10 aspmx.l.google.com.
+google.com. 600 IN MX 20 alt1.aspmx.l.google.com.
+google.com. 600 IN MX 40 alt3.aspmx.l.google.com.
+google.com. 600 IN MX 50 alt4.aspmx.l.google.com.
+google.com. 600 IN MX 30 alt2.aspmx.l.google.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+aspmx.l.google.com. 293 IN A 172.217.197.27
+aspmx.l.google.com. 293 IN AAAA 2607:f8b0:400d:c0c::1b
+alt1.aspmx.l.google.com. 293 IN A 64.233.186.27
+alt1.aspmx.l.google.com. 293 IN AAAA 2800:3f0:4003:c00::1b
+alt3.aspmx.l.google.com. 293 IN A 64.233.184.27
+alt3.aspmx.l.google.com. 293 IN AAAA 2a00:1450:400c:c0b::1b
+alt4.aspmx.l.google.com. 293 IN A 172.217.218.27
+alt4.aspmx.l.google.com. 293 IN AAAA 2a00:1450:4013:c08::1a
+alt2.aspmx.l.google.com. 293 IN A 74.125.193.27
+alt2.aspmx.l.google.com. 293 IN AAAA 2a00:1450:400b:c01::1a
+MSG RECVD : 56 bytes
+Time to fetch records: 845 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+youtube.com. IN MX
+;; ANSWER SECTION
+youtube.com. 600 IN MX 50 alt4.aspmx.l.google.com.
+youtube.com. 600 IN MX 10 aspmx.l.google.com.
+youtube.com. 600 IN MX 20 alt1.aspmx.l.google.com.
+youtube.com. 600 IN MX 40 alt3.aspmx.l.google.com.
+youtube.com. 600 IN MX 30 alt2.aspmx.l.google.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+alt4.aspmx.l.google.com. 293 IN A 172.217.218.27
+alt4.aspmx.l.google.com. 293 IN AAAA 2a00:1450:4013:c08::1a
+aspmx.l.google.com. 293 IN A 173.194.207.27
+aspmx.l.google.com. 293 IN AAAA 2607:f8b0:400d:c0f::1a
+alt1.aspmx.l.google.com. 293 IN A 64.233.186.27
+alt1.aspmx.l.google.com. 293 IN AAAA 2800:3f0:4003:c00::1a
+alt3.aspmx.l.google.com. 293 IN A 64.233.184.27
+alt3.aspmx.l.google.com. 293 IN AAAA 2a00:1450:400c:c0b::1b
+alt2.aspmx.l.google.com. 293 IN A 74.125.193.27
+alt2.aspmx.l.google.com. 293 IN AAAA 2a00:1450:400b:c01::1a
+MSG RECVD : 56 bytes
+Time to fetch records: 198 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+baidu.com. IN MX
+;; ANSWER SECTION
+baidu.com. 7200 IN MX 15 mx.n.shifen.com.
+baidu.com. 7200 IN MX 20 mx1.baidu.com.
+baidu.com. 7200 IN MX 20 jpmx.baidu.com.
+baidu.com. 7200 IN MX 20 mx50.baidu.com.
+baidu.com. 7200 IN MX 10 mx.maillb.baidu.com.
+;;AUTHORITY SECTION
+baidu.com. 86400 IN NS dns.baidu.com.
+baidu.com. 86400 IN NS ns3.baidu.com.
+baidu.com. 86400 IN NS ns2.baidu.com.
+baidu.com. 86400 IN NS ns7.baidu.com.
+baidu.com. 86400 IN NS ns4.baidu.com.
+;;ADDITIONAL SECTION
+mx1.baidu.com. 300 IN A 220.181.50.185
+mx1.baidu.com. 300 IN A 61.135.165.120
+jpmx.baidu.com. 7200 IN A 61.208.132.13
+mx50.baidu.com. 300 IN A 180.76.13.18
+dns.baidu.com. 86400 IN A 202.108.22.220
+ns2.baidu.com. 86400 IN A 220.181.33.31
+ns3.baidu.com. 86400 IN A 112.80.248.64
+ns4.baidu.com. 86400 IN A 14.215.178.80
+ns7.baidu.com. 86400 IN A 180.76.76.92
+MSG RECVD : 56 bytes
+Time to fetch records: 743 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+facebook.com. IN MX
+;; ANSWER SECTION
+facebook.com. 300 IN MX 10 smtpin.vvv.facebook.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 432 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+wikipedia.org. IN MX
+;; ANSWER SECTION
+wikipedia.org. 3600 IN MX 10 mx1001.wikimedia.org.
+wikipedia.org. 3600 IN MX 50 mx2001.wikimedia.org.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 1344 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+yahoo.com. IN MX
+;; ANSWER SECTION
+yahoo.com. 1800 IN MX 1 mta6.am0.yahoodns.net.
+yahoo.com. 1800 IN MX 1 mta7.am0.yahoodns.net.
+yahoo.com. 1800 IN MX 1 mta5.am0.yahoodns.net.
+;;AUTHORITY SECTION
+yahoo.com. 172800 IN NS ns4.yahoo.com.
+yahoo.com. 172800 IN NS ns5.yahoo.com.
+yahoo.com. 172800 IN NS ns1.yahoo.com.
+yahoo.com. 172800 IN NS ns2.yahoo.com.
+yahoo.com. 172800 IN NS ns3.yahoo.com.
+;;ADDITIONAL SECTION
+ns1.yahoo.com. 1209600 IN A 68.180.131.16
+ns2.yahoo.com. 1209600 IN A 68.142.255.16
+ns3.yahoo.com. 1800 IN A 27.123.42.42
+ns4.yahoo.com. 1209600 IN A 98.138.11.157
+ns5.yahoo.com. 1209600 IN A 119.160.253.83
+ns1.yahoo.com. 86400 IN AAAA 2001:4998:130::1001
+ns2.yahoo.com. 86400 IN AAAA 2001:4998:140::1002
+ns3.yahoo.com. 1800 IN AAAA 2406:8600:f03f:1f8::1003
+MSG RECVD : 56 bytes
+Time to fetch records: 134 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+jd.com. IN MX
+;; ANSWER SECTION
+jd.com. 120 IN MX 10 mx.jd.com.
+;;AUTHORITY SECTION
+jd.com. 120 IN NS ns1.jdcache.com.
+jd.com. 120 IN NS ns2.jdcache.com.
+jd.com. 120 IN NS ns2.jd.com.
+jd.com. 120 IN NS ns1.jd.com.
+jd.com. 120 IN NS ns4.jd.com.
+jd.com. 120 IN NS ns4.jdcache.com.
+jd.com. 120 IN NS ns3.jd.com.
+jd.com. 120 IN NS ns3.jdcache.com.
+;;ADDITIONAL SECTION
+ns1.jd.com. 120 IN A 111.13.28.10
+ns1.jdcache.com. 720 IN A 111.13.28.10
+ns2.jd.com. 120 IN A 111.206.226.10
+ns2.jdcache.com. 720 IN A 111.206.226.10
+ns3.jd.com. 120 IN A 120.52.149.254
+ns3.jdcache.com. 720 IN A 120.52.149.254
+ns4.jd.com. 120 IN A 106.39.177.32
+ns4.jdcache.com. 720 IN A 106.39.177.32
+MSG RECVD : 56 bytes
+Time to fetch records: 489 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+amazon.com. IN MX
+;; ANSWER SECTION
+amazon.com. 900 IN MX 5 amazon-smtp.amazon.com.
+;;AUTHORITY SECTION
+amazon.com. 3600 IN NS pdns1.ultradns.net.
+amazon.com. 3600 IN NS ns4.p31.dynect.net.
+amazon.com. 3600 IN NS ns3.p31.dynect.net.
+amazon.com. 3600 IN NS ns2.p31.dynect.net.
+amazon.com. 3600 IN NS ns1.p31.dynect.net.
+amazon.com. 3600 IN NS pdns6.ultradns.co.uk.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 880 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+sina.com.cn. IN MX
+;; ANSWER SECTION
+sina.com.cn. 600 IN MX 10 freemx2.sinamail.sina.com.cn.
+sina.com.cn. 600 IN MX 10 freemx3.sinamail.sina.com.cn.
+sina.com.cn. 600 IN MX 10 freemx1.sinamail.sina.com.cn.
+;;AUTHORITY SECTION
+sina.com.cn. 86400 IN NS ns2.sina.com.cn.
+sina.com.cn. 86400 IN NS ns3.sina.com.cn.
+sina.com.cn. 86400 IN NS ns4.sina.com.cn.
+sina.com.cn. 86400 IN NS ns1.sina.com.cn.
+;;ADDITIONAL SECTION
+freemx1.sinamail.sina.com.cn. 60 IN A 39.156.6.104
+freemx2.sinamail.sina.com.cn. 60 IN A 121.14.32.117
+freemx3.sinamail.sina.com.cn. 60 IN A 39.156.6.104
+ns1.sina.com.cn. 86400 IN A 36.51.252.8
+ns2.sina.com.cn. 86400 IN A 180.149.138.199
+ns3.sina.com.cn. 86400 IN A 123.125.29.99
+ns4.sina.com.cn. 86400 IN A 121.14.1.22
+MSG RECVD : 56 bytes
+Time to fetch records: 687 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+reddit.com. IN MX
+;; ANSWER SECTION
+reddit.com. 300 IN MX 1 aspmx.l.google.com.
+reddit.com. 300 IN MX 10 aspmx2.googlemail.com.
+reddit.com. 300 IN MX 10 aspmx3.googlemail.com.
+reddit.com. 300 IN MX 5 alt1.aspmx.l.google.com.
+reddit.com. 300 IN MX 5 alt2.aspmx.l.google.com.
+;;AUTHORITY SECTION
+reddit.com. 172800 IN NS ns-1029.awsdns-00.org.
+reddit.com. 172800 IN NS ns-1887.awsdns-43.co.uk.
+reddit.com. 172800 IN NS ns-378.awsdns-47.com.
+reddit.com. 172800 IN NS ns-557.awsdns-05.net.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 164 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+netflix.com. IN MX
+;; ANSWER SECTION
+netflix.com. 60 IN MX 1 aspmx.l.google.com.
+netflix.com. 60 IN MX 10 aspmx2.googlemail.com.
+netflix.com. 60 IN MX 10 aspmx3.googlemail.com.
+netflix.com. 60 IN MX 5 alt1.aspmx.l.google.com.
+netflix.com. 60 IN MX 5 alt2.aspmx.l.google.com.
+;;AUTHORITY SECTION
+netflix.com. 14400 IN NS ns-1372.awsdns-43.org.
+netflix.com. 14400 IN NS ns-1984.awsdns-56.co.uk.
+netflix.com. 14400 IN NS ns-659.awsdns-18.net.
+netflix.com. 14400 IN NS ns-81.awsdns-10.com.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 413 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+okezone.com. IN MX
+;; ANSWER SECTION
+okezone.com. 3600 IN MX 10 mx1.okezone.com.
+okezone.com. 3600 IN MX 10 alt3.aspmx.l.google.com.
+okezone.com. 3600 IN MX 10 alt4.aspmx.l.google.com.
+okezone.com. 3600 IN MX 1 aspmx.l.google.com.
+okezone.com. 3600 IN MX 5 mx2.okezone.com.
+okezone.com. 3600 IN MX 5 alt1.aspmx.l.google.com.
+;;AUTHORITY SECTION
+okezone.com. 3600 IN NS ns1.okezone.com.
+okezone.com. 3600 IN NS ns2.okezone.com.
+okezone.com. 3600 IN NS ns3.okezone.com.
+okezone.com. 3600 IN NS ns4.okezone.com.
+okezone.com. 3600 IN NS ns5.okezone.com.
+;;ADDITIONAL SECTION
+mx1.okezone.com. 3600 IN A 202.147.199.229
+ns1.okezone.com. 3600 IN A 202.80.220.232
+ns2.okezone.com. 3600 IN A 202.80.220.88
+ns3.okezone.com. 3600 IN A 202.80.220.58
+ns4.okezone.com. 3600 IN A 202.80.220.78
+ns5.okezone.com. 3600 IN A 202.147.199.228
+MSG RECVD : 56 bytes
+Time to fetch records: 383 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+yahoo.co.jp. IN MX
+;; ANSWER SECTION
+yahoo.co.jp. 900 IN MX 10 mx1.mail.yahoo.co.jp.
+yahoo.co.jp. 900 IN MX 10 mx2.mail.yahoo.co.jp.
+yahoo.co.jp. 900 IN MX 10 mx5.mail.yahoo.co.jp.
+yahoo.co.jp. 900 IN MX 10 mx3.mail.yahoo.co.jp.
+;;AUTHORITY SECTION
+yahoo.co.jp. 900 IN NS ns12.yahoo.co.jp.
+yahoo.co.jp. 900 IN NS ns01.yahoo.co.jp.
+yahoo.co.jp. 900 IN NS ns02.yahoo.co.jp.
+yahoo.co.jp. 900 IN NS ns11.yahoo.co.jp.
+;;ADDITIONAL SECTION
+mx1.mail.yahoo.co.jp. 900 IN A 182.22.12.118
+mx1.mail.yahoo.co.jp. 900 IN A 182.22.12.119
+mx1.mail.yahoo.co.jp. 900 IN A 183.79.16.114
+mx1.mail.yahoo.co.jp. 900 IN A 183.79.16.118
+mx1.mail.yahoo.co.jp. 900 IN A 183.79.16.119
+mx1.mail.yahoo.co.jp. 900 IN A 182.22.12.114
+mx2.mail.yahoo.co.jp. 900 IN A 183.79.16.113
+mx2.mail.yahoo.co.jp. 900 IN A 183.79.16.116
+mx2.mail.yahoo.co.jp. 900 IN A 183.79.16.117
+mx2.mail.yahoo.co.jp. 900 IN A 182.22.12.113
+mx2.mail.yahoo.co.jp. 900 IN A 182.22.12.116
+mx2.mail.yahoo.co.jp. 900 IN A 182.22.12.117
+mx3.mail.yahoo.co.jp. 900 IN A 183.79.16.249
+mx3.mail.yahoo.co.jp. 900 IN A 182.22.12.244
+mx3.mail.yahoo.co.jp. 900 IN A 182.22.12.248
+mx3.mail.yahoo.co.jp. 900 IN A 182.22.12.249
+mx3.mail.yahoo.co.jp. 900 IN A 183.79.16.243
+mx3.mail.yahoo.co.jp. 900 IN A 183.79.16.248
+MSG RECVD : 56 bytes
+Time to fetch records: 739 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+instagram.com. IN MX
+;; ANSWER SECTION
+instagram.com. 300 IN MX 10 mxa-00082601.gslb.pphosted.com.
+instagram.com. 300 IN MX 10 mxb-00082601.gslb.pphosted.com.
+;;AUTHORITY SECTION
+instagram.com. 172800 IN NS ns-1349.awsdns-40.org.
+instagram.com. 172800 IN NS ns-2016.awsdns-60.co.uk.
+instagram.com. 172800 IN NS ns-384.awsdns-48.com.
+instagram.com. 172800 IN NS ns-868.awsdns-44.net.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 149 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+bing.com. IN MX
+;; ANSWER SECTION
+bing.com. 3600 IN MX 10 bing-com.mail.protection.outlook.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 413 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+google.com.hk. IN MX
+;; ANSWER SECTION
+google.com.hk. 600 IN MX 30 alt2.aspmx.l.google.com.
+google.com.hk. 600 IN MX 10 aspmx.l.google.com.
+google.com.hk. 600 IN MX 50 alt4.aspmx.l.google.com.
+google.com.hk. 600 IN MX 20 alt1.aspmx.l.google.com.
+google.com.hk. 600 IN MX 40 alt3.aspmx.l.google.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+alt2.aspmx.l.google.com. 293 IN A 74.125.193.27
+alt2.aspmx.l.google.com. 293 IN AAAA 2a00:1450:400b:c01::1a
+aspmx.l.google.com. 293 IN A 173.194.205.27
+aspmx.l.google.com. 293 IN AAAA 2607:f8b0:400d:c07::1b
+alt4.aspmx.l.google.com. 293 IN A 172.217.218.27
+alt4.aspmx.l.google.com. 293 IN AAAA 2a00:1450:4013:c08::1b
+alt1.aspmx.l.google.com. 293 IN A 64.233.186.27
+alt1.aspmx.l.google.com. 293 IN AAAA 2800:3f0:4003:c00::1a
+alt3.aspmx.l.google.com. 293 IN A 64.233.184.27
+alt3.aspmx.l.google.com. 293 IN AAAA 2a00:1450:400c:c0b::1b
+MSG RECVD : 56 bytes
+Time to fetch records: 622 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+microsoft.com. IN MX
+;; ANSWER SECTION
+microsoft.com. 3600 IN MX 10 microsoft-com.mail.protection.outlook.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 240 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+twitter.com. IN MX
+;; ANSWER SECTION
+twitter.com. 600 IN MX 20 alt2.aspmx.l.google.com.
+twitter.com. 600 IN MX 30 ASPMX3.GOOGLEMAIL.COM.
+twitter.com. 600 IN MX 20 alt1.aspmx.l.google.com.
+twitter.com. 600 IN MX 30 ASPMX2.GOOGLEMAIL.COM.
+twitter.com. 600 IN MX 10 aspmx.l.google.com.
+;;AUTHORITY SECTION
+twitter.com. 13999 IN NS d01-02.ns.twtrdns.net.
+twitter.com. 13999 IN NS d.r06.twtrdns.net.
+twitter.com. 13999 IN NS ns2.p34.dynect.net.
+twitter.com. 13999 IN NS ns1.p34.dynect.net.
+twitter.com. 13999 IN NS ns3.p34.dynect.net.
+twitter.com. 13999 IN NS c.r06.twtrdns.net.
+twitter.com. 13999 IN NS b.r06.twtrdns.net.
+twitter.com. 13999 IN NS a.r06.twtrdns.net.
+twitter.com. 13999 IN NS ns4.p34.dynect.net.
+twitter.com. 13999 IN NS d01-01.ns.twtrdns.net.
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 623 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+google.com. IN NS
+;; ANSWER SECTION
+google.com. 345600 IN NS ns2.google.com.
+google.com. 345600 IN NS ns1.google.com.
+google.com. 345600 IN NS ns4.google.com.
+google.com. 345600 IN NS ns3.google.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns2.google.com. 345600 IN A 216.239.34.10
+ns2.google.com. 345600 IN AAAA 2001:4860:4802:34::a
+ns1.google.com. 345600 IN A 216.239.32.10
+ns1.google.com. 345600 IN AAAA 2001:4860:4802:32::a
+ns4.google.com. 345600 IN A 216.239.38.10
+ns4.google.com. 345600 IN AAAA 2001:4860:4802:38::a
+ns3.google.com. 345600 IN A 216.239.36.10
+ns3.google.com. 345600 IN AAAA 2001:4860:4802:36::a
+MSG RECVD : 56 bytes
+Time to fetch records: 146 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+youtube.com. IN NS
+;; ANSWER SECTION
+youtube.com. 345600 IN NS ns3.google.com.
+youtube.com. 345600 IN NS ns1.google.com.
+youtube.com. 345600 IN NS ns4.google.com.
+youtube.com. 345600 IN NS ns2.google.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns3.google.com. 345600 IN A 216.239.36.10
+ns3.google.com. 345600 IN AAAA 2001:4860:4802:36::a
+ns1.google.com. 345600 IN A 216.239.32.10
+ns1.google.com. 345600 IN AAAA 2001:4860:4802:32::a
+ns4.google.com. 345600 IN A 216.239.38.10
+ns4.google.com. 345600 IN AAAA 2001:4860:4802:38::a
+ns2.google.com. 345600 IN A 216.239.34.10
+ns2.google.com. 345600 IN AAAA 2001:4860:4802:34::a
+MSG RECVD : 56 bytes
+Time to fetch records: 108 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+tmail.com. IN NS
+;; ANSWER SECTION
+tmail.com. 500 IN NS geo4.t-mobile.com.
+tmail.com. 500 IN NS geo3.t-mobile.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+geo3.t-mobile.com. 60 IN A 66.94.9.124
+geo4.t-mobile.com. 60 IN A 66.94.25.124
+MSG RECVD : 56 bytes
+Time to fetch records: 405 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+baidu.com. IN NS
+;; ANSWER SECTION
+baidu.com. 86400 IN NS ns3.baidu.com.
+baidu.com. 86400 IN NS dns.baidu.com.
+baidu.com. 86400 IN NS ns4.baidu.com.
+baidu.com. 86400 IN NS ns2.baidu.com.
+baidu.com. 86400 IN NS ns7.baidu.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+dns.baidu.com. 86400 IN A 202.108.22.220
+ns2.baidu.com. 86400 IN A 220.181.33.31
+ns3.baidu.com. 86400 IN A 112.80.248.64
+ns4.baidu.com. 86400 IN A 14.215.178.80
+ns7.baidu.com. 86400 IN A 180.76.76.92
+MSG RECVD : 56 bytes
+Time to fetch records: 533 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+facebook.com. IN NS
+;; ANSWER SECTION
+facebook.com. 172800 IN NS b.ns.facebook.com.
+facebook.com. 172800 IN NS a.ns.facebook.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+b.ns.facebook.com. 172800 IN AAAA 2a03:2880:ffff:c:face:b00c:0:35
+b.ns.facebook.com. 172800 IN A 69.171.255.12
+a.ns.facebook.com. 172800 IN AAAA 2a03:2880:fffe:c:face:b00c:0:35
+a.ns.facebook.com. 172800 IN A 69.171.239.12
+MSG RECVD : 56 bytes
+Time to fetch records: 450 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+wikipedia.org. IN NS
+;; ANSWER SECTION
+wikipedia.org. 86400 IN NS ns0.wikimedia.org.
+wikipedia.org. 86400 IN NS ns1.wikimedia.org.
+wikipedia.org. 86400 IN NS ns2.wikimedia.org.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 366 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+yahoo.com. IN NS
+;; ANSWER SECTION
+yahoo.com. 172800 IN NS ns4.yahoo.com.
+yahoo.com. 172800 IN NS ns5.yahoo.com.
+yahoo.com. 172800 IN NS ns1.yahoo.com.
+yahoo.com. 172800 IN NS ns3.yahoo.com.
+yahoo.com. 172800 IN NS ns2.yahoo.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns1.yahoo.com. 1209600 IN A 68.180.131.16
+ns2.yahoo.com. 1209600 IN A 68.142.255.16
+ns3.yahoo.com. 1800 IN A 27.123.42.42
+ns4.yahoo.com. 1209600 IN A 98.138.11.157
+ns5.yahoo.com. 1209600 IN A 119.160.253.83
+ns1.yahoo.com. 86400 IN AAAA 2001:4998:130::1001
+ns2.yahoo.com. 86400 IN AAAA 2001:4998:140::1002
+ns3.yahoo.com. 1800 IN AAAA 2406:8600:f03f:1f8::1003
+MSG RECVD : 56 bytes
+Time to fetch records: 462 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+jd.com. IN NS
+;; ANSWER SECTION
+jd.com. 120 IN NS ns4.jd.com.
+jd.com. 120 IN NS ns2.jd.com.
+jd.com. 120 IN NS ns3.jd.com.
+jd.com. 120 IN NS ns3.jdcache.com.
+jd.com. 120 IN NS ns1.jdcache.com.
+jd.com. 120 IN NS ns2.jdcache.com.
+jd.com. 120 IN NS ns1.jd.com.
+jd.com. 120 IN NS ns4.jdcache.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns1.jd.com. 120 IN A 111.13.28.10
+ns1.jdcache.com. 720 IN A 111.13.28.10
+ns2.jd.com. 120 IN A 111.206.226.10
+ns2.jdcache.com. 720 IN A 111.206.226.10
+ns3.jd.com. 120 IN A 120.52.149.254
+ns3.jdcache.com. 720 IN A 120.52.149.254
+ns4.jd.com. 120 IN A 106.39.177.32
+ns4.jdcache.com. 720 IN A 106.39.177.32
+MSG RECVD : 56 bytes
+Time to fetch records: 615 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+amazon.com. IN NS
+;; ANSWER SECTION
+amazon.com. 3600 IN NS pdns1.ultradns.net.
+amazon.com. 3600 IN NS ns4.p31.dynect.net.
+amazon.com. 3600 IN NS ns3.p31.dynect.net.
+amazon.com. 3600 IN NS ns2.p31.dynect.net.
+amazon.com. 3600 IN NS ns1.p31.dynect.net.
+amazon.com. 3600 IN NS pdns6.ultradns.co.uk.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 776 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+sina.com.cn. IN NS
+;; ANSWER SECTION
+sina.com.cn. 86400 IN NS ns4.sina.com.cn.
+sina.com.cn. 86400 IN NS ns3.sina.com.cn.
+sina.com.cn. 86400 IN NS ns2.sina.com.cn.
+sina.com.cn. 86400 IN NS ns1.sina.com.cn.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns1.sina.com.cn. 86400 IN A 36.51.252.8
+ns2.sina.com.cn. 86400 IN A 180.149.138.199
+ns3.sina.com.cn. 86400 IN A 123.125.29.99
+ns4.sina.com.cn. 86400 IN A 121.14.1.22
+MSG RECVD : 56 bytes
+Time to fetch records: 680 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+reddit.com. IN NS
+;; ANSWER SECTION
+reddit.com. 172800 IN NS ns-1029.awsdns-00.org.
+reddit.com. 172800 IN NS ns-1887.awsdns-43.co.uk.
+reddit.com. 172800 IN NS ns-378.awsdns-47.com.
+reddit.com. 172800 IN NS ns-557.awsdns-05.net.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 114 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+netflix.com. IN NS
+;; ANSWER SECTION
+netflix.com. 14400 IN NS ns-1372.awsdns-43.org.
+netflix.com. 14400 IN NS ns-1984.awsdns-56.co.uk.
+netflix.com. 14400 IN NS ns-659.awsdns-18.net.
+netflix.com. 14400 IN NS ns-81.awsdns-10.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 157 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+okezone.com. IN NS
+;; ANSWER SECTION
+okezone.com. 3600 IN NS ns3.okezone.com.
+okezone.com. 3600 IN NS ns4.okezone.com.
+okezone.com. 3600 IN NS ns5.okezone.com.
+okezone.com. 3600 IN NS ns1.okezone.com.
+okezone.com. 3600 IN NS ns2.okezone.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns1.okezone.com. 3600 IN A 202.80.220.232
+ns2.okezone.com. 3600 IN A 202.80.220.88
+ns3.okezone.com. 3600 IN A 202.80.220.58
+ns4.okezone.com. 3600 IN A 202.80.220.78
+ns5.okezone.com. 3600 IN A 202.147.199.228
+MSG RECVD : 56 bytes
+Time to fetch records: 463 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+yahoo.co.jp. IN NS
+;; ANSWER SECTION
+yahoo.co.jp. 900 IN NS ns11.yahoo.co.jp.
+yahoo.co.jp. 900 IN NS ns02.yahoo.co.jp.
+yahoo.co.jp. 900 IN NS ns12.yahoo.co.jp.
+yahoo.co.jp. 900 IN NS ns01.yahoo.co.jp.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns01.yahoo.co.jp. 900 IN A 118.151.254.133
+ns02.yahoo.co.jp. 900 IN A 118.151.254.149
+ns11.yahoo.co.jp. 900 IN A 124.83.255.37
+ns12.yahoo.co.jp. 900 IN A 124.83.255.101
+MSG RECVD : 56 bytes
+Time to fetch records: 654 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+instagram.com. IN NS
+;; ANSWER SECTION
+instagram.com. 172800 IN NS ns-1349.awsdns-40.org.
+instagram.com. 172800 IN NS ns-2016.awsdns-60.co.uk.
+instagram.com. 172800 IN NS ns-384.awsdns-48.com.
+instagram.com. 172800 IN NS ns-868.awsdns-44.net.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 441 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+bing.com. IN NS
+;; ANSWER SECTION
+bing.com. 3600 IN NS ns1-204.azure-dns.com.
+bing.com. 3600 IN NS ns2-204.azure-dns.net.
+bing.com. 3600 IN NS ns3-204.azure-dns.org.
+bing.com. 3600 IN NS ns4-204.azure-dns.info.
+bing.com. 3600 IN NS dns1.p09.nsone.net.
+bing.com. 3600 IN NS dns2.p09.nsone.net.
+bing.com. 3600 IN NS dns3.p09.nsone.net.
+bing.com. 3600 IN NS dns4.p09.nsone.net.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 186 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+google.com.hk. IN NS
+;; ANSWER SECTION
+google.com.hk. 345600 IN NS ns2.google.com.
+google.com.hk. 345600 IN NS ns4.google.com.
+google.com.hk. 345600 IN NS ns1.google.com.
+google.com.hk. 345600 IN NS ns3.google.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns2.google.com. 345600 IN A 216.239.34.10
+ns2.google.com. 345600 IN AAAA 2001:4860:4802:34::a
+ns4.google.com. 345600 IN A 216.239.38.10
+ns4.google.com. 345600 IN AAAA 2001:4860:4802:38::a
+ns1.google.com. 345600 IN A 216.239.32.10
+ns1.google.com. 345600 IN AAAA 2001:4860:4802:32::a
+ns3.google.com. 345600 IN A 216.239.36.10
+ns3.google.com. 345600 IN AAAA 2001:4860:4802:36::a
+MSG RECVD : 56 bytes
+Time to fetch records: 564 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+microsoft.com. IN NS
+;; ANSWER SECTION
+microsoft.com. 172800 IN NS ns1.msft.net.
+microsoft.com. 172800 IN NS ns2.msft.net.
+microsoft.com. 172800 IN NS ns3.msft.net.
+microsoft.com. 172800 IN NS ns4.msft.net.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns1.msft.net. 300 IN A 208.84.0.53
+ns1.msft.net. 300 IN AAAA 2620:0:30::53
+ns2.msft.net. 172800 IN A 208.84.2.53
+ns2.msft.net. 172800 IN AAAA 2620:0:32::53
+ns3.msft.net. 300 IN A 193.221.113.53
+ns3.msft.net. 300 IN AAAA 2620:0:34::53
+ns4.msft.net. 172800 IN A 208.76.45.53
+ns4.msft.net. 172800 IN AAAA 2620:0:37::53
+MSG RECVD : 56 bytes
+Time to fetch records: 300 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+twitter.com. IN NS
+;; ANSWER SECTION
+twitter.com. 13999 IN NS d01-02.ns.twtrdns.net.
+twitter.com. 13999 IN NS ns1.p34.dynect.net.
+twitter.com. 13999 IN NS a.r06.twtrdns.net.
+twitter.com. 13999 IN NS ns4.p34.dynect.net.
+twitter.com. 13999 IN NS d01-01.ns.twtrdns.net.
+twitter.com. 13999 IN NS ns3.p34.dynect.net.
+twitter.com. 13999 IN NS d.r06.twtrdns.net.
+twitter.com. 13999 IN NS c.r06.twtrdns.net.
+twitter.com. 13999 IN NS b.r06.twtrdns.net.
+twitter.com. 13999 IN NS ns2.p34.dynect.net.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 497 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+ebay.com. IN NS
+;; ANSWER SECTION
+ebay.com. 172800 IN NS dns3.p06.nsone.net.
+ebay.com. 172800 IN NS ns1.p47.dynect.net.
+ebay.com. 172800 IN NS ns4.p47.dynect.net.
+ebay.com. 172800 IN NS dns1.p06.nsone.net.
+ebay.com. 172800 IN NS ns2.p47.dynect.net.
+ebay.com. 172800 IN NS dns2.p06.nsone.net.
+ebay.com. 172800 IN NS ns3.p47.dynect.net.
+ebay.com. 172800 IN NS dns4.p06.nsone.net.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 544 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+stackoverflow.com. IN NS
+;; ANSWER SECTION
+stackoverflow.com. 172800 IN NS ns-1033.awsdns-01.org.
+stackoverflow.com. 172800 IN NS ns-358.awsdns-44.com.
+stackoverflow.com. 172800 IN NS ns-cloud-e1.googledomains.com.
+stackoverflow.com. 172800 IN NS ns-cloud-e2.googledomains.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 124 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+twitch.tv. IN NS
+;; ANSWER SECTION
+twitch.tv. 900 IN NS a1.verisigndns.com.
+twitch.tv. 900 IN NS a2.verisigndns.com.
+twitch.tv. 900 IN NS a3.verisigndns.com.
+twitch.tv. 900 IN NS ns1.p18.dynect.net.
+twitch.tv. 900 IN NS ns2.p18.dynect.net.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+MSG RECVD : 56 bytes
+Time to fetch records: 4372 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+tribunnews.com. IN NS
+;; ANSWER SECTION
+tribunnews.com. 172800 IN NS dns4.masterweb.net.
+tribunnews.com. 172800 IN NS dns3.masterweb.net.
+tribunnews.com. 172800 IN NS dns2.masterweb.net.
+tribunnews.com. 172800 IN NS dns1.masterweb.net.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+dns1.masterweb.net. 300 IN A 202.157.177.169
+dns2.masterweb.net. 300 IN A 45.64.1.209
+dns3.masterweb.net. 300 IN A 149.28.149.165
+dns4.masterweb.net. 300 IN A 45.79.30.92
+MSG RECVD : 56 bytes
+Time to fetch records: 736 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------
+;; QUESTION SECTION
+google.co.in. IN NS
+;; ANSWER SECTION
+google.co.in. 345600 IN NS ns3.google.com.
+google.co.in. 345600 IN NS ns4.google.com.
+google.co.in. 345600 IN NS ns2.google.com.
+google.co.in. 345600 IN NS ns1.google.com.
+;;AUTHORITY SECTION
+;;ADDITIONAL SECTION
+ns3.google.com. 345600 IN A 216.239.36.10
+ns3.google.com. 345600 IN AAAA 2001:4860:4802:36::a
+ns4.google.com. 345600 IN A 216.239.38.10
+ns4.google.com. 345600 IN AAAA 2001:4860:4802:38::a
+ns2.google.com. 345600 IN A 216.239.34.10
+ns2.google.com. 345600 IN AAAA 2001:4860:4802:34::a
+ns1.google.com. 345600 IN A 216.239.32.10
+ns1.google.com. 345600 IN AAAA 2001:4860:4802:32::a
+MSG RECVD : 56 bytes
+Time to fetch records: 492 ms
+------------------------------------------------------------------
+------------------------------------------------------------------
