@@ -1,0 +1,32 @@
+
+
+The initial congestion widnow is 1MSS
+To calculate congestion window, I calculated bytes that are sent without an acknowldegment and estimated cwnd per rtt.
+The congestion window can be estimated at both the sender and the receiver.
+The cwnd increases then decrease due to packet loss.
+
+1.Estimation of congestion window at the senders end. 10 congestion windows for each flow.
+For flow between ports 43498 -- > 80
+[13056, 15928, 17376, 18824, 20272, 21720, 23168, 21720, 20272, 18824, 28960]
+For flow between ports 43500 -- > 80
+[13056, 15928, 14480, 18824, 20272, 18824, 17376, 20272, 21720, 20272, 28960]
+For flow between ports 43502 -- > 80
+[13056, 15928, 14480, 13032, 11584, 10136, 8688, 7240, 5792, 4344, 28960]
+
+
+To estimate the values I check for which packets, the sequence numbers were repeated, if the sent sequence number was recieved thrice the packet was retransmitted 
+due to tripdup ack and was fast retransmitted, else the retransmission was due to timeout.
+The estimation can be done at both the sender and reciever.
+
+2.Estimation of acks due to timeout and triple duplacte acks.
+For flow between ports 43498 -- > 80
+Packets due to triple duplicate 2
+Packets due to timeout 1
+
+For flow between ports 43500 -- > 80
+Packets due to triple duplicate 36
+Packets due to timeout 58
+
+For flow between ports 43502 -- > 80
+Packets due to triple duplicate 0
+Packets due to timeout 0

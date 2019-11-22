@@ -1,0 +1,85 @@
+/**
+
+   overview of the code:
+
+   The pcap file analyzed contains datapackets captured at the senders end, to read the pcap file I used the dpkt library, from which we can get 
+   each packet and its timestamp, then I iterated over each packet and extracted inforamtion using struct module, such as source ip address, source port etc 
+   and stored them as a packet object for further analysis.
+
+
+**/
+
+
+
+
+
+1.Number of flows : 3 (Note :Check for syn,ack packet from receiver to sender)
+
+2. 1 Initial two transactions after connection setup 
+Each transaction corresponds to a packet sent by the sender to receiver and, back the acknowledgment number from the receiver matches sender 
+sequence number + tcpsegment size. Receive window is the buffer of the sender and the receiver, it is a scaled version. (tcpsegment size is len(packet) - 66)
+
+For flow between ports 43498 -- > 80
+Transaction
+705669103 1921750144 3 (Transaction order : sequence number, acknowledgment number, Receive window size)
+1921750144 705669127 3
+Transaction
+705669127 1921750144 3
+1921750144 705670575 3
+For flow between ports 43500 -- > 80
+Transaction
+3636173852 2335809728 3
+2335809728 3636173876 3
+Transaction
+3636173876 2335809728 3
+2335809728 3636175324 3
+For flow between ports 43502 -- > 80
+Transaction
+2558634630 3429921723 3
+3429921723 2558634654 3
+Transaction
+2558634654 3429921723 3
+3429921723 2558636102 3
+
+2.2 Throughpt (To calculate throughput in each  flow calulate  (total data sent/ total time to send the data) i.e (total size/ finaltimestamp - initialtimestamp))
+
+For flow between ports 43498 -- > 80
+5251391.112912558
+For flow between ports 43500 -- > 80
+1285420.726825806
+For flow between ports 43502 -- > 80
+1481506.3848257195
+
+2.3 Loss Rate (To calculate Loss rate calculate (number of packets retransmitted/ total packets sent), to get retransmitted packets check for repeating sequence number 
+from sender to receiver)
+
+For flow between ports 43498 -- > 80
+0.0005733944954128441
+For flow between ports 43500 -- > 80
+0.01344276213386161
+For flow between ports 43502 -- > 80
+0.0013736263736263737
+
+2.4 Round Trip time (To calculate round trip time calculate (Rtt for each transaction/ total number of such transactions), Ignore transaction which were retransmitted)
+To calculate RTT for a single transaction store seqnumber + tcpsegmentsize and corresponding timestamp in a dictionary {seqnumber + tcpsegmentsize: timestamp}(sender to 
+receiver)similary store {packet.ackn : timestamp} (from receiver to sender)  match packet.ackn and  seqnumber + tcpsegmentsize  to recognize a transaction
+For flow between ports 43498 -- > 80
+0.07354260186470236
+For flow between ports 43500 -- > 80
+0.16767797955439254
+For flow between ports 43502 -- > 80
+0.0732728694504053
+
+
+Calculation of theoritical throughput using formula  derived in the class.
+MSS : 1460
+Loss Rate calulate in question 2.3
+Average RTT calculate in question 2.4
+For flow between ports 43498 -- > 80
+1015425.67
+For flow between ports 43500 -- > 80
+91986.76
+For flow between ports 43502 -- > 80
+676862.756
+
+Theoritical throughput is very less than the actual throughput, because we are using average RTT, and RTT is varying a lot in for most of the transactios.
