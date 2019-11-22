@@ -1,0 +1,305 @@
+TEST DATA
+=========
+
+NOTE: Number of shares owned by an entity (company, person) can be NEGATIVE.
+      It means that the entity promised to buy the stock but has not done
+      so yet. In short, the entity does not actually own the stock.
+
+Company: QUE
+    shares:     150000
+    shareprice: 30
+    board:      'John Smyth', 'Bill Doe', 'Anne Smyle'
+    industry:   Software, Accounting
+    owns (in # of shares):
+            RHC,   10000
+            Elgog, 20000
+            Elpa,  30000  
+
+Company: RHC
+    shares:     250000
+    shareprice: 20 
+    board:      'Bill Doe', 'Bill Seth', 'Steve Lamp'
+    industry:   Accounting
+    owns (in # of shares):
+            nothing
+
+Company: Alf
+    shares:     10000000
+    shareprice: 700
+    board:      'May Serge', 'Bill Public', 'Bill Doe'
+    industry:   Software, Automotive
+    owns (in # of shares):
+            Ydex,  -100000    Note: negative value
+            Elgog, 400000
+            Elpa,  100000
+
+Company: Elgog
+    shares:     1000000
+    shareprice: 400
+    board:      'May Serge', 'Bill Public', 'Steve Lamp'
+    industry:   Software, Search
+    owns (in # of shares):
+            Ohay,  5000
+
+Company: Tfos
+    shares:     10000000
+    shareprice: 300
+    board:      'Bill Seth', 'Steve Lamp', 'Anne Smyle'
+    industry:   Software, Hardware
+    owns (in # of shares):
+            Ohay,  30000
+            Gnow,  50000
+            QUE,   200000
+
+Company: Ohay
+    shares:     180000
+    shareprice: 50
+    board:      'Bill Seth', 'Anne Smyle', 'Muck Lain'
+    industry:   Search
+    owns (in # of shares):
+            nothing
+
+Company: Gnow
+    shares:     150000
+    shareprice: 300
+    board:      'Bill Seth', 'John Smyth', 'Anne Smyle'
+    industry:   Search
+    owns (in # of shares):
+            nothing
+
+Company: Elpa
+    shares:     9000000
+    shareprice: 300
+    board:      'Bill Seth', 'John Smyth', 'Muck Lain'
+    industry:   Software, Hardware
+    owns (in # of shares):
+            Tfos,   20000
+            Elgog,  30000
+
+Company: Ydex
+    shares:     5000000
+    shareprice: 100
+    board:      'May Serge', 'John Smyth', 'Muck Lain'
+    industry:   Software, Search
+    owns (in # of shares):
+            nothing
+
+
+Person: 'Bill Doe'
+    owns (in # of shares):
+            Tfos, 30000
+            Elpa, 100000
+
+Person: 'Bill Seth'
+    owns (in # of shares):
+            Gnow,  40000
+            Elgog, 20000
+
+Person: 'John Smyth'
+    owns (in # of shares):
+            QUE,  20000
+            RHC,  20000
+            Tfos, 800000
+
+Person: 'Anne Smyle'
+    owns (in # of shares):
+            RHC,  30000
+            Tfos, 40000
+            Alf,  500000
+
+Person: 'Steve Lamp'
+    owns (in # of shares):
+            Elpa, 90000
+            QUE,  50000
+            Ohay, 50000
+            RHC,  70000
+
+Person: 'May Serge'
+    owns (in # of shares):
+            Elpa, -10000        Negative!
+            Ydex, -40000
+            Alf,  500000
+            RHC,  40000
+ 
+Person: 'Bill Public'
+    owns (in # of shares):
+            Gnow,  80000
+            Elgog, 30000
+            QUE,   30000
+            Tfos,  300000
+            RHC,   -9000
+ 
+Person: 'Muck Lain'
+    owns (in # of shares):
+            RHC,   60000
+            Ohay,  -40000      Negative!
+            Ydex,  -80000
+            Elpa,  30000
+
+
+
+Expected results
+================
+
+=== Query 1 ===
+
+?Company = Alf
+
+?Company = Elgog
+
+?Company = Elpa
+
+?Company = Gnow
+
+?Company = QUE
+
+?Company = RHC
+
+?Company = Tfos
+
+7 solution(s)
+
+
+=== Query 2 ===
+
+?Person = 'Anne Smyle'
+?NetWorth = 362600000
+
+?Person = 'Bill Doe'
+?NetWorth = 39000000
+
+?Person = 'Bill Public'
+?NetWorth = 126900000
+
+?Person = 'Bill Seth'
+?NetWorth = 20000000
+
+?Person = 'John Smyth'
+?NetWorth = 241000000 
+
+?Person = 'May Serge'
+?NetWorth = 350800000
+
+?Person = 'Muck Lain'
+?NetWorth = 10200000
+
+?Person = 'Steve Lamp'
+?NetWorth = 32400000
+
+8 solution(s)
+
+
+=== Query 3 ===
+
+?Company = Alf
+?TopBoardMember = 'May Serge'
+
+?Company = Elgog
+?TopBoardMember = 'Bill Public'
+
+?Company = Elpa
+?TopBoardMember = 'Muck Lain'
+
+?Company = Gnow
+?TopBoardMember = 'Bill Seth'
+
+?Company = QUE
+?TopBoardMember = 'John Smyth'
+
+?Company = RHC
+?TopBoardMember = 'Steve Lamp'
+
+?Company = Tfos
+?TopBoardMember = 'Anne Smyle'
+
+7 solution(s)
+
+
+=== Query 4 ===
+
+?Company1 = Elgog
+?Company2 = Ohay
+
+?Company1 = Elgog
+?Company2 = Tfos
+
+2 solution(s)
+
+
+=== Query 5 ===
+
+?Person = 'Anne Smyle'
+?Company = RHC
+?Percentage = 12.0213
+
+?Person = 'Bill Public'
+?Company = Gnow
+?Percentage = 54.3334
+
+?Person = 'Bill Public'
+?Company = QUE
+?Percentage = 24.0002
+
+?Person = 'Bill Seth'
+?Company = Gnow
+?Percentage = 26.6667
+
+?Person = 'John Smyth'
+?Company = QUE
+?Percentage = 24.0002
+
+?Person = 'May Serge'
+?Company = RHC
+?Percentage = 16.0000
+
+?Person = 'Muck Lain'
+?Company = RHC
+?Percentage = 24.0000
+
+?Person = 'Steve Lamp'
+?Company = Ohay
+?Percentage = 27.7976
+
+?Person = 'Steve Lamp'
+?Company = QUE
+?Percentage = 33.3363
+
+?Person = 'Steve Lamp'
+?Company = RHC
+?Percentage = 29.3335
+
+10 solution(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QI(?CNAME1,?CNAME2)        :-  ?CNAME1 != ?CNAME2,cIndustry(?CNAME1, ?Industry), cIndustry(?CNAME2,?Industry).
+QB2(?p2,?CNAME2,?CNAME,?shr2)    :-  pBoard(?p2,?CNAME2), QI(?,?CNAME2), pOwns(?p2,?CNAME,?shr2).
+QBM(?CNAME,?shr2m) :-    ?shr2m = max{?shr2[?CNAME]|QB2(?,?,?CNAME,?shr2)}.
+
+
+QB1(?p1,?CNAME1,?CNAME,?shr1)    :-  pBoard(?p1,?CNAME1) ,QI(?CNAME1,?),pOwns(?p1,?CNAME,?shr1).  
+                                     
+Q4(?CNAME1,?CNAME2)          :-   ?CNAME1 != ?CNAME2,
+                                  QB2(?p2,?CNAME2,?CNAME,?shr2),
+                                  QB1(?p1,?CNAME1,?CNAME,?shr1),
+                                  forall(?p2)^(QB2(?p2,CNAME2,?CNAME,?shr2) ~~> QB1(?p1,?CNAME1,?CNAME,?shr1)),
+                                  exists(?p1)^(QB2(?p2,?CNAME2,?CNAME,?shr2),QB1(?p1,?CNAME1,?CNAME,?shr1)), ?shr1 > ?shr2. */
+
+/* query 4 not solved */
+

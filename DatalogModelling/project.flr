@@ -1,0 +1,221 @@
+ // Project1
+// Author : Kushagra Pareek
+// Id: 112551443
+
+
+/*
+
+    //company table
+     company(name: symbol, shares: long, sPrice: long)
+     Key: name
+     "In the above table an Id can be created if company name is not unique,
+     but considering it as a real world example considering company names to be unique"
+
+    //company owns share of other companies
+    cOwns(name1: symbol, name2: symbol, cShare:long)
+    Key: name1, name2
+
+    //person table
+    person(pId: symbol, pName: symbol)
+    Key: pId
+
+    //person owns share
+    pOwns(pId: symbol, cName: symbol, cShares: long)
+    Key: pId, cName
+
+   //person on board of comapny
+   pBoard(pId: symbol, cName: symbol)
+   Key: pId, cName
+ 
+   // company industry
+   cIndustry(cName: symbol, industry: symbol)
+   Key: cName, industry
+   
+
+
+
+*/
+
+
+   company(QUE, 150000, 30).
+   cOwns(QUE, RHC, 10000).
+   cOwns(QUE, Elgog, 20000).
+   cOwns(QUE, Elpa, 30000).
+   person(p1, 'Jhon Smyth').
+   person(p2, 'Bill Doe').
+   person(p3, 'Anne Smyle').
+   pBoard(p1, QUE).
+   pBoard(p2, QUE).
+   pBoard(p3, QUE).
+   pOwns(p1, QUE, 20000).
+   pOwns(p1, RHC, 20000).
+   pOwns(p1, Tfos, 800000).
+   pOwns(p2, Tfos, 30000).
+   pOwns(p2, Elpa, 100000).
+   pOwns(p3, RHC, 30000).
+   pOwns(p3, Tfos, 40000).
+   pOwns(p3, Alf, 500000).
+   cIndustry(QUE, Software).
+   CIndustry(QUE, Accounting).
+
+
+   company(RHC, 250000, 20).
+   person(p4, 'Bill Seth').
+   person(p5, 'Steve Lamp').
+   pBoard(p4, RHC).
+   pBoard(p5, RHC).
+   pBoard(p2, RHC).
+   pOwns(p4, Gnow, 40000).
+   pOwns(p4, Elgog, 20000).
+   pOwns(p5, Elpa, 90000).
+   pOwns(p5, QUE, 50000).
+   pOwns(p5, Ohay, 50000).
+   pOwns(p5, RHC, 70000).
+   //pOwns(p4, Tfos, 50000). //For testing
+   cIndustry(RHC, Accounting).
+
+   company(Alf, 10000000, 700).
+   cOwns(Alf, Ydex, -100000).
+   cOwns(Alf, Elgog, 400000).
+   cOwns(Alf, Elpa, 100000).
+   person(p6, 'May Serge').
+   person(p7, 'Bill Public').
+   pBoard(p6, Alf).
+   pBoard(p7, Alf).
+   pBoard(p2, Alf).
+   pOwns(p6, Elpa, -10000).
+   pOwns(p6, Ydex, -40000).
+   pOwns(p6, Alf, 500000).
+   pOwns(p6, RHC, 40000).
+   pOwns(p7, Gnow, 80000).
+   pOwns(p7, Elgog, 30000).
+   pOwns(p7, QUE, 30000).
+   pOwns(p7, Tfos, 300000).
+   pOwns(p7, RHC, -9000).
+   cIndustry(Alf, Software).
+   cIndustry(Alf, Automative).
+
+
+   company(Elgog, 1000000, 400).
+   cOwns(Elgog, Ohay, 5000).
+   pBoard(p6, Elgog).
+   pBoard(p7, Elgog).
+   pBoard(p5, Elgog).
+   cIndustry(Elgog, Software).
+   cIndustry(Elgog, Search).
+
+
+   company(Tfos, 10000000, 300).
+   cOwns(Tfos, Ohay, 30000).
+   cOwns(Tfos, Gnow, 50000).
+   cOwns(Tfos, QUE, 200000).
+   pBoard(p4, Tfos).
+   pBoard(p5, Tfos).
+   pBoard(p3, Tfos).
+   cIndustry(Tfos, Software).
+   cIndustry(Tfos, Hardware).
+
+   company(Ohay, 180000, 50).
+   person(p8, 'Muck Lain').
+   pBoard(p8, Ohay).
+   pBoard(p3, Ohay).
+   pBoard(p4, Ohay).
+   cIndustry(Ohay, Search).
+
+   company(Gnow, 150000, 300).
+   pBoard(p4, Gnow).
+   pBoard(p1, Gnow).
+   pBoard(p3, Gnow).
+   cIndustry(Gnow, Search).
+
+   company(Elpa, 9000000, 300).
+   pBoard(p4, Elpa).
+   pBoard(p1, Elpa).
+   pBoard(p8, Elpa).
+   cOwns(Elpa, Tfos, 20000).
+   cOwns(Elpa, Elgog, 30000).
+   cIndustry(Elpa, Software).
+   cIndustry(Elpa, Hardware).
+   
+   company(Ydex, 5000000, 100).
+   pBoard(p6, Ydex).
+   pBoard(p1, Ydex).
+   pBoard(p8, Ydex).
+   cIndustry(Ydex, Software).
+   cIndustry(Ydex, Search).
+   pOwns(p8, RHC, 60000).
+   pOwns(p8, Ohay,-40000).
+   pOwns(p8, Ydex, -80000).
+   pOwns(p8, Elpa, 30000).
+
+//Query 1
+
+Q1(?CNAME) :- pOwns(?pId, ?CNAME, ?Shares), 
+              pBoard(?pId, ?CNAME), ?Shares > 0.
+
+//Query 2
+Q2S(?NAME, ?CNAME, ?MONEY) :-  company(?CNAME, ?, ?sPrice), pOwns(?Id,?CNAME,?cShares) ,
+                               person(?Id,?NAME), ?cShares > 0 ,?MONEY \is ?sPrice * ?cShares.
+Q2(?NAME1, ?NETWORTH)      :-  ?NETWORTH = sum{?MONEY[?NAME1]| Q2S(?NAME1,?,?MONEY)}. 
+
+//Query 3
+
+Q3S(?NAME, ?CNAME, ?Shares) :- pOwns(?pId , ?CNAME, ?Shares), pBoard(?pId, ?CNAME), 
+                               person(?pId, ?NAME), ?Shares > 0.
+                               /*Take aggregate over company names*/
+Q3(?CNAME, ?NAME)           :- ?VALUE = max{?Shares[?CNAME]| Q3S(?,?CNAME,?Shares)},Q3S(?NAME,?CNAME,?VALUE).
+
+
+//QUERY4                         /*Belonging to same Industry*/
+Q4(?CNAME1, ?CNAME2)        :-   ?CNAME1 != ?CNAME2,
+                                 cIndustry(?CNAME1, ?Industry), cIndustry(?CNAME2, ?Industry),
+                                 /*pId2 --> exits(pId1)*/
+                                 forall(?pId2, ?CNAME,?shr2)^(
+                                 pBoard(?pId2,?CNAME2),pOwns(?pId2,?CNAME,?shr2) ~~> 
+                                 exists(?pId1,?shr1)^(pBoard(?pId1,?CNAME1),pOwns(?pId1,?CNAME,?shr1),?shr1 >= ?shr2)).
+                                                 
+//QUERY 5        
+/* This calculates the fraction of shares owned by companies of other companies*/
+directcOwns(?CNAME,?CNAME1,?frac)     :- cOwns(?CNAME, ?CNAME1, ?shr1), company(?CNAME1, ?shr2, ?), ?frac \is ?shr1/?shr2 ,?shr1 > 0.
+indirectcOwns(?CNAME, ?CNAME1, ?frac) :- directcOwns(?CNAME, ?CNAME1, ?frac).
+indirectcOwns(?CNAME,?CNAME1, ?frac)  :- directcOwns(?CNAME, ?x, ?frac1), indirectcOwns(?x, ?CNAME1, ?frac2), 
+                                         ?frac \is ?frac1 * ?frac2 ,?CNAME != ?CNAME1.
+cOwnsgroup(?CNAME, ?CNAME1, ?fracsum) :- ?fracsum = sum{?frac[?CNAME,?CNAME1]| indirectcOwns(?CNAME, ?CNAME1, ?frac)}.  
+   
+/*This  part calculates the fraction of comapnies owned by each person , if fraction is greater than 10%*/ 
+directpOwns(?pId, ?CNAME, ?frac)    :-  pOwns(?pId, ?CNAME, ?shr1), company(?CNAME, ?shr2, ?), ?frac \is ?shr1/?shr2 , ?shr1 > 0.
+indirectpOwns(?pId, ?CNAME, ?frac)  :-  directpOwns(?pId, ?CNAME, ?frac).
+indirectpOwns(?pId, ?CNAME1, ?frac) :-  cOwnsgroup(?CNAME, ?CNAME1, ?shr1), indirectpOwns(?pId, ?CNAME, ?shr2), ?frac \is ?shr1*?shr2.
+pOwnsgroup(?pId, ?CNAME, ?fracsum)  :-  ?fracsum = sum{?frac[?pId, ?CNAME]| indirectpOwns(?pId, ?CNAME, ?frac)}, ?fracsum > 0.1.
+
+Q5(?NAME, ?CNAME, ?per)   :-     pOwnsgroup(?pId, ?CNAME, ?fracsum), person(?pId, ?NAME), ?per \is ?fracsum *100.       
+
+
+//Print to std out
+/*Find all companies that are (partially) owned by one of their board members.*/
+?- writeln('--- Query 1: ---')@\io,
+         Q1(?Company). 
+
+/*Find the net worth for every person in the database.*/ 
+?- writeln('--- Query 2: ---')@\io,
+         Q2(?Person, ?Networth).
+
+/*For each company, find the board member that owns the most shares of that company among
+all the board members of that company.*/
+?- writeln('--- Query 3: ---')@\io,
+         Q3(?Company, ?TopBoardMember).
+
+ 
+?- writeln('--- Query 4: ---')@\io,
+         Q4(?Company1 , ?Company2).
+
+
+/*For each person, find the companies he controls and the percentage of control, if that percentage
+is greater than 10%.*/
+?- writeln('--- Query 5: ---')@\io,
+         Q5(?Name, ?Company, ?Percentage).
+
+
+
+
+
